@@ -3,6 +3,8 @@ be 3
 by 2 6 7 
 easy 3 4 
 human-engineered 5 
+linha 8 9 
+mais 9 
 outra 8 
 programming 1 7 
 programs 3 
