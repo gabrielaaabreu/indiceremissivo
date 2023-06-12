@@ -11,10 +11,6 @@ class HashColisaoExterior {
         this.nElementos = 0;
     }
 
-    public int tamanho() {
-        return this.nElementos;
-    }
-
     public void imprime() {
         for (int i = 0; i < vetor.length; i++) {
             vetor[i].imprimeEmOrdem();
@@ -32,15 +28,6 @@ class HashColisaoExterior {
         this.nElementos++;
     }
 
-    public boolean remove(PalavraChave elemento) {
-        int endereco = funcaoHashDiv(elemento);
-        boolean removeu = this.vetor[endereco].remove(elemento);
-
-        if(removeu) this.nElementos--;
-
-        return removeu;
-    }
-
     public boolean contem(PalavraChave elemento){
         int endereco = funcaoHashDiv(elemento);
         return this.vetor[endereco].busca(elemento);
@@ -49,10 +36,5 @@ class HashColisaoExterior {
     public ArvoreBinariaBusca.Nodo posicao(PalavraChave elemento) { //retorna o nodo da árvore binária de busca onde está o elemento
         int endereco = funcaoHashDiv(elemento);
         return this.vetor[endereco].buscaPosicao(elemento);
-    }
-
-    @Override
-    public String toString() {
-        return "this.imprime()";
     }
 }

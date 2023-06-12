@@ -7,3 +7,4 @@ by the application of common sense and
 by the use of good programming practices.
 outra linha aqui
 mais texto nessa linha
+mais um exemplo

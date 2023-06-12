@@ -2,9 +2,10 @@ and 4 5 6
 be 3 
 by 2 6 7 
 easy 3 4 
+exemplo 10 
 human-engineered 5 
 linha 8 9 
-mais 9 
+mais 9 10 
 outra 8 
 programming 1 7 
 programs 3 
