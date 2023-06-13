@@ -33,6 +33,7 @@ public class TextResources {
             reader = new BufferedReader(new FileReader("src/chaves.txt"));
             String line = reader.readLine();
             while(line != null) {
+                line = characterHandling(line); 
                 concatenatedKeys.append(line).append(" ");
                 line = reader.readLine();
             }
